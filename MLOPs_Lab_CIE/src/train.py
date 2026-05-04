@@ -69,6 +69,9 @@ def main():
         joblib.dump(model, path)
         mlflow.log_artifact(path)
 
+        # ✅ IMPORTANT LINE (for Task 3)
+        mlflow.sklearn.log_model(model, artifact_path="model")
+
         models_results.append({
             "name": "LinearRegression",
             "mae": float(mae),
@@ -97,6 +100,9 @@ def main():
         path = os.path.join(MODEL_DIR, "RandomForest.pkl")
         joblib.dump(model, path)
         mlflow.log_artifact(path)
+
+        # ✅ IMPORTANT LINE (for Task 3)
+        mlflow.sklearn.log_model(model, artifact_path="model")
 
         models_results.append({
             "name": "RandomForest",

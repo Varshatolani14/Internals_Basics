@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/health",
+  "predict_endpoint": "/predict",
+  "port": 8500,
+  "health_response": {
+    "status": "healthy",
+    "model_loaded": true
+  },
+  "test_input": {
+    "controls_count": 143,
+    "evidence_items": 332,
+    "auditor_experience": 7,
+    "is_regulatory": 0
+  },
+  "prediction": 24.885099999999998
+}

@@ -1,0 +1,7 @@
+{
+    "registered_model_name": "audittrail-audit-completion-days-predictor",
+    "version": 1,
+    "run_id": "ba1eef17eb39408e9956d1e1df0b4afc",
+    "source_metric": "rmse",
+    "source_metric_value": 3.59790787000504
+}

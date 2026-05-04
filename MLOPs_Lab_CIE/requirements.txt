@@ -4,4 +4,4 @@ joblib
 mlflow
 fastapi
 uvicorn
-numpy
+numpypython src/register_model.py
