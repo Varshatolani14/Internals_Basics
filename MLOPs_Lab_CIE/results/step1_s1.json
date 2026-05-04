@@ -1,0 +1,20 @@
+{
+    "experiment_name": "audittrail-audit-completion-days",
+    "models": [
+        {
+            "name": "LinearRegression",
+            "mae": 3.2711782785032844,
+            "rmse": 3.59790787000504,
+            "r2": 0.697533294129446
+        },
+        {
+            "name": "RandomForest",
+            "mae": 4.559480000000002,
+            "rmse": 5.511658240493517,
+            "r2": 0.29019008594439344
+        }
+    ],
+    "best_model": "LinearRegression",
+    "best_metric_name": "rmse",
+    "best_metric_value": 3.59790787000504
+}
